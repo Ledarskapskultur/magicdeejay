@@ -5,9 +5,9 @@ from dotenv import load_dotenv
 
 # Ladda API-nycklar från .env
 load_dotenv()
-ELKS_USER = os.getenv("ELKS_USER")
-ELKS_PASS = os.getenv("ELKS_PASS")
-ELKS_FROM = os.getenv("ELKS_FROM")
+ELKS_USER = os.getenv("carl-fredrik@ledarskapskultur.se")
+ELKS_PASS = os.getenv("48X7p3msy5")
+ELKS_FROM = os.getenv("MagicDeejay")
 RECIPIENT_NUMBER = os.getenv("RECIPIENT_NUMBER")  # Ditt nummer som DJ
 
 st.set_page_config(page_title="Önska en låt", page_icon="🎧", layout="centered")
